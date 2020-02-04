@@ -1,0 +1,102 @@
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+.container {
+  padding: 0 10px;
+  @include breakpoints {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.centered {
+  @include breakpoints {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.row {
+  padding: 1em 10px;
+  @include flexbox(flex, column);
+  @include breakpoints {
+    @include flexbox(flex, row);
+  }
+}
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  @include breakpoints {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+}
+
+[class^=col] + [class^=col] {
+  @include breakpoints {
+    margin-left: 10px;
+  }
+}
+
+.col {
+  @include breakpoints {
+    &-1 {
+      flex-basis: 8.33%;
+    }
+    &-2 {
+      flex-basis: 16.67%;
+    }
+    &-3 {
+      flex-basis: 25.00%;
+    }
+    &-4 {
+      flex-basis: 33.33%;
+    }
+    &-5 {
+      flex-basis: 41.67%;
+    }
+    &-6 {
+      flex-basis: 50.00%;
+    }
+    &-7 {
+      flex-basis: 58.33%;
+    }
+    &-8 {
+      flex-basis: 66.67%;
+    }
+    &-9 {
+      flex-basis: 75.00%
+    }
+    &-10 {
+      flex-basis: 83.33%;
+    }
+    &-11 {
+      flex-basis: 91.67%;
+    }
+    &-12 {
+      flex-basis: 100%;
+    }
+  }
+}
+
+@for $i from 1 through 12 {
+  .col {	
+    &-#{$i}.theme {
+      background-color: nth($theme-colors, $i);			
+    }
+  }
+}
+
+.card {
+  flex-basis: 100%;
+}

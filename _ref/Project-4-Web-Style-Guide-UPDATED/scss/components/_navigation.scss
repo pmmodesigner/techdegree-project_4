@@ -1,0 +1,35 @@
+/* ============================================= */
+/*                 Navigation                    */
+/* ============================================= */
+
+.nav {
+  list-style: none;
+  line-height: 40px;
+  text-align: center;
+  padding: 0;
+  flex-basis: 100%;
+  @include flexbox(flex, column);
+  @include breakpoints {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  };
+  &-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: 
+    background-color .2s ease-in-out, 
+    color .2s ease-in-out;
+  @include breakpoints {
+    flex-basis: 100px;
+  }
+  &:hover {
+    color: $white;
+    background-color: $secondary-c;
+  } 
+  }
+}
+

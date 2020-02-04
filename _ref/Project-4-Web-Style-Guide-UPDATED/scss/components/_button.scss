@@ -1,0 +1,30 @@
+/* ============================================= */
+/*                  Buttons                      */
+/* ============================================= */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  @each $key, $color in $btn-theme-c {
+    &.#{$key} {
+      background-color: $color;
+      &:hover {
+        background-color: lighten($color, 10%);
+      }
+    }
+  }
+  @include breakpoints {
+    padding: 10px 30px;
+  }
+}
+
+.btn + .btn {
+  @include breakpoints {
+    margin-left: 10px;
+  }
+}

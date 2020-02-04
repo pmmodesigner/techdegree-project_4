@@ -1,0 +1,15 @@
+//  Button background colors
+$btn-def-color: #51ddfc;
+$btn-err-color: #e4757a;
+$btn-inf-color: #927bc1;
+$btn-suc-color: #63cc82;
+$btn-wrn-color: #fd7856;
+
+$btn-bg-color: (
+    'default': $btn-def-color,
+    'error': $btn-err-color,
+    'info': $btn-inf-color,
+    'success': $btn-suc-color,
+    'warning': $btn-wrn-color,
+);
+

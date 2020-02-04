@@ -1,0 +1,63 @@
+/* ============================================= */
+/*                  Mixins                       */
+/* ============================================= */
+
+
+// Flexbox //
+@mixin flexbox (
+    $dis: flex,
+    $dir: null,
+    $rap: null,
+    $just: null,
+)
+{
+    display: $dis;
+    flex-direction: $dir;
+    flex-wrap: $rap;
+    justify-content: $just;
+    @content; 
+}
+
+
+// Media Queries //
+
+@mixin breakpoints {
+  @media (min-width: $break-s) { @content; }
+}
+
+
+@mixin mq($break) {
+    $value: map-get($breakpoints, $break);
+    $xs: map-get($breakpoints , 'xs');
+
+    @if $value < $xs {
+        @media (max-width: $value) {
+            @content; 
+        }
+    }
+
+    @else {
+        @media (min-wdith: $value) {
+            @content;
+        }
+    }
+}
+
+
+// Grids //
+
+@mixin grids {
+  font: $primary-font-stack;
+  padding: 13px 0 13px 15px;
+  border-radius: 5px;
+  display: block;
+  margin-left: -8px;
+  width: 105%;
+  color: #797979;
+}
+
+@mixin desktop-grids {
+  margin: 0px;
+  text-align: center;
+  padding-left: 0px;
+}

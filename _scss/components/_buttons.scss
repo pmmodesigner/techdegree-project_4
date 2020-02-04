@@ -2,7 +2,7 @@
 /*              Buttons                          */
 /* ============================================= */
 
-.btn {
+  .btn {
     margin-top: 15px;
     width: 100%;
     color: #fff;
@@ -10,24 +10,35 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    @each $btn-type, $btn-type-color in $btn-bg-color {
+      &.#{$btn-type} {
+        background-color: $btn-type-color;
+        &:hover {
+          background-color: lighten($btn-type-color, 15%);
+          color: #000;
+        }
+      }
+    }
   }
   
-  .default {
-    background-color: #51ddfc;
-  }
+  // .default {
+  //   background-color: $btn-def-color;
+  // }
   
-  .error {
-    background-color: #e4757a;
-  }
+  // .error {
+  //   background-color: $btn-err-color;
+  // }
   
-  .info {
-    background-color: #927bc1;
-  }
+  // .info {
+  //   background-color: $btn-inf-color;
+  // }
   
-  .success {
-    background-color: #63cc82;
-  }
+  // .success {
+  //   background-color: $btn-suc-color;
+  // }
   
-  .warning {
-    background-color: #fd7856;
-  }
+  // .warning {
+  //   background-color: $btn-wrn-color;
+  // }
