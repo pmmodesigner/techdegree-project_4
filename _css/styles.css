@@ -346,42 +346,36 @@ template {
 [hidden] {
   display: none; }
 
-/* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-/* line 6, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
+/* line 4, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
 * {
   font-family: 'Lato', sans-serif;
   color: #777;
   box-sizing: border-box; }
 
-/* line 12, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
+/* line 10, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
 p {
   line-height: 1.45em; }
 
-/* line 16, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
+/* line 14, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
 a {
   text-decoration: none; }
 
-/* ============================================= */
-/*              Typography                       */
-/* ============================================= */
-/* line 25, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
+/* line 22, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px; }
 
-/* line 30, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
+/* line 27, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #777; }
 
-/* line 35, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
+/* line 32, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
 .link {
   color: #51ddfc;
   font-weight: 700; }
 
-/* line 40, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
+/* line 37, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/base/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
@@ -394,10 +388,7 @@ a {
 /* ============================================= */
 /* Components Imports */
 /* ============================================= */
-/* ============================================= */
-/*              Buttons                          */
-/* ============================================= */
-/* line 5, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+/* line 4, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -408,50 +399,47 @@ a {
   border-radius: 5px;
   cursor: pointer;
   transition-duration: 0.5s; }
-  /* line 16, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+  /* line 15, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
   .btn.default {
     background-color: #51ddfc; }
-    /* line 18, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+    /* line 17, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
     .btn.default:hover {
       background-color: #9cecfd;
       color: #000; }
-  /* line 16, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+  /* line 15, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
   .btn.error {
     background-color: #e4757a; }
-    /* line 18, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+    /* line 17, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
     .btn.error:hover {
       background-color: #f1b5b8;
       color: #000; }
-  /* line 16, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+  /* line 15, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
   .btn.info {
     background-color: #927bc1; }
-    /* line 18, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+    /* line 17, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
     .btn.info:hover {
       background-color: #bdafd9;
       color: #000; }
-  /* line 16, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+  /* line 15, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
   .btn.success {
     background-color: #63cc82; }
-    /* line 18, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+    /* line 17, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
     .btn.success:hover {
       background-color: #9ddfb0;
       color: #000; }
-  /* line 16, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+  /* line 15, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
   .btn.warning {
     background-color: #fd7856; }
-    /* line 18, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
+    /* line 17, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_buttons.scss */
     .btn.warning:hover {
       background-color: #feb4a2;
       color: #000; }
 
-/* ============================================= */
-/*              Forms                            */
-/* ============================================= */
-/* line 5, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_forms.scss */
+/* line 4, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_forms.scss */
 .form {
   flex-basis: 100%; }
 
-/* line 9, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_forms.scss */
+/* line 8, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_forms.scss */
 .input {
   display: block;
   width: 94%;
@@ -460,7 +448,7 @@ a {
   padding: 10px;
   border-bottom: 5px solid #58e1c1; }
 
-/* line 18, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_forms.scss */
+/* line 17, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_forms.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -469,34 +457,29 @@ a {
   height: 1px;
   overflow: hidden; }
 
-/* ============================================= */
-/*              Navigation                       */
-/* ============================================= */
-/* line 5, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_navigation.scss */
+/* line 4, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_navigation.scss */
 .nav {
   padding-left: 0;
   flex-basis: 100%;
   display: flex;
   flex-direction: column; }
 
-/* line 12, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_navigation.scss */
+/* line 11, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out; }
+  margin-left: 10px;
+  transition: background-color .5s ease-in-out,  color .2s ease-in-out; }
 
 /* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_navigation.scss */
 .nav-link:hover {
   color: #fff;
-  background-color: #58e1c1; }
+  background-color: #63cc82; }
 
-/* ============================================= */
-/*              Images                           */
-/* ============================================= */
-/* line 5, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_images.scss */
+/* line 4, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_images.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
@@ -505,7 +488,7 @@ a {
   max-width: 100%;
   max-height: 100%; }
 
-/* line 14, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_images.scss */
+/* line 13, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -515,26 +498,23 @@ a {
   padding: 13px;
   border: 1px solid #ccc; }
 
-/* line 24, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_images.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* ============================================= */
-/*              Grid System                      */
-/* ============================================= */
-/* line 5, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 4, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .container {
   padding: 0 10px; }
 
-/* line 9, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 8, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px; }
 
-/* line 15, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 14, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -546,57 +526,54 @@ a {
 .theme.col-1 {
   background-color: #927bc1; }
 
-/* line 27, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856; }
 
-/* line 31, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee; }
 
-/* line 35, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd; }
 
-/* line 39, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0; }
 
-/* line 43, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb; }
 
-/* line 47, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3; }
 
-/* line 51, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85; }
 
-/* line 55, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a; }
 
-/* line 59, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82; }
 
-/* line 63, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc; }
 
-/* line 67, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1; }
 
-/* line 71, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
+/* line 28, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_grid.scss */
 .card {
   flex-basis: 100%; }
 
-/* ============================================= */
-/*              Media Queries                    */
-/* ============================================= */
 @media (min-width: 768px) {
   /* line 6, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .container {
@@ -604,74 +581,74 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-  /* line 13, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 14, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-  /* line 19, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 20, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .row {
     flex-direction: row; }
-  /* line 23, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 24, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center; }
-  /* line 30, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 31, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px; }
-  /* line 34, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 35, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-1 {
     flex-basis: 8.33%; }
-  /* line 38, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 39, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-2 {
     flex-basis: 16.67%; }
-  /* line 42, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 43, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-3 {
     flex-basis: 25.00%; }
-  /* line 46, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 47, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-4 {
     flex-basis: 33.33%; }
-  /* line 50, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 51, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-5 {
     flex-basis: 41.67%; }
-  /* line 54, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 55, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-6 {
     flex-basis: 50.00%; }
-  /* line 58, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 59, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-7 {
     flex-basis: 58.33%; }
-  /* line 62, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 63, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-8 {
     flex-basis: 66.67%; }
-  /* line 66, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 67, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-9 {
     flex-basis: 75.00%; }
-  /* line 70, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 71, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-10 {
     flex-basis: 83.33%; }
-  /* line 74, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 75, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-11 {
     flex-basis: 91.67%; }
-  /* line 78, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 79, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .col-12 {
     flex-basis: 100%; }
-  /* line 82, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 83, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center; }
-  /* line 88, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 89, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .nav-link {
     flex-basis: 100px; }
-  /* line 92, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 93, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .btn {
     padding: 10px 30px; }
-  /* line 96, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 97, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px; }
-  /* line 100, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
+  /* line 101, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial; } }

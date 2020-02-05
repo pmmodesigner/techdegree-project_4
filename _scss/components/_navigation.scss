@@ -1,6 +1,5 @@
-/* ============================================= */
-/*              Navigation                       */
-/* ============================================= */
+// NAVIGATION //
+
 
 .nav {
     padding-left: 0;
@@ -15,12 +14,14 @@
     padding: 10px 0;
     display: block;
     width: 100%;
+    margin-left: 10px;
     transition: 
-      background-color .2s ease-in-out, 
+      background-color .5s ease-in-out, 
       color .2s ease-in-out;
   }
   
   .nav-link:hover {
     color: #fff;
-    background-color: #58e1c1;
+    background-color: $btn-suc-color;
   }
+  

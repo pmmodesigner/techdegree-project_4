@@ -1,11 +1,15 @@
+// VARIABLES //
+
+
 //  Button background colors
+
 $btn-def-color: #51ddfc;
 $btn-err-color: #e4757a;
 $btn-inf-color: #927bc1;
 $btn-suc-color: #63cc82;
 $btn-wrn-color: #fd7856;
 
-$btn-bg-color: (
+$btn-bg-color-set: (
     'default': $btn-def-color,
     'error': $btn-err-color,
     'info': $btn-inf-color,
@@ -13,3 +17,30 @@ $btn-bg-color: (
     'warning': $btn-wrn-color,
 );
 
+
+//  Grid column colors
+
+$column-color-set: (
+    'col-1': #927bc1,
+    'col-2': #fd7856,
+    'col-3': #deb2ee,
+    'col-4': #7ee6fd,
+    'col-5': #88d9a0,
+    'col-6': #4da2bb,
+    'col-7': #ec9fa3,
+    'col-8': #fd9f85,
+    'col-9': #e4757a,
+    'col-10': #63cc82,
+    'col-11': #51ddfc,
+    'col-12': #80e8d1,
+);
+
+
+// Media query breakpoints
+
+$break-xs: 575px;
+$break-s: 576px;
+$break-m: 768px;
+$break-l: 992px;
+
+$media-max-width: 1400px

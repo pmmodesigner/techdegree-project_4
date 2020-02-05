@@ -1,13 +1,14 @@
-/* ============================================= */
-/*              Media Queries                    */
-/* ============================================= */
-@media (min-width: 768px) {
+// MEDIA QUERIES //
+
+
+@media (min-width: $break-m) {
 
     .container {
-      max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: $media-max-width;
+      // display: block;
+      // margin-left: auto;
+      // margin-right: auto;
+      @include block-center;
     }
     
     .centered {
