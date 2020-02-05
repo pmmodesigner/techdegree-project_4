@@ -457,6 +457,10 @@ a {
   height: 1px;
   overflow: hidden; }
 
+/* line 26, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_forms.scss */
+fieldset {
+  border: none; }
+
 /* line 4, ../../../../../Users/pmmo/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/techdegree-project_4/_scss/components/_navigation.scss */
 .nav {
   padding-left: 0;
